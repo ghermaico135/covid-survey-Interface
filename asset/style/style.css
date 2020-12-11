@@ -8,6 +8,7 @@
     --dark-color: #002240;
     --white: #fff;
 }
+/* reset */
 
 * {
     box-sizing: border-box;
@@ -15,6 +16,7 @@
     padding: 0;
 }
 
+/* body */
 body {
     font-family: "Lato", sans-serif;
     color: var(--light-brown);
@@ -50,6 +52,7 @@ img {
     height: 0;
 }
 
+/* Navbar */
 .logo {
     width: 200px;
     height: 70px;
@@ -82,7 +85,7 @@ img {
     justify-content: space-between;
 }
 
-/* Info-case */
+/* Forms */
 .info-case {
     /* height: 200px; */
     color: var(--white);
@@ -92,6 +95,7 @@ img {
 
 .info-case h1 {
     font-size: 40px;
+    color: var(--light-brown);
 }
 
 .info-case p {
@@ -119,6 +123,12 @@ img {
     width: 400px;
     padding: 40px;
     justify-self: flex-end;
+}
+.enquiry {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
 }
 
 form label {
@@ -164,6 +174,8 @@ form input:focus {
     border-bottom: 1px solid var(--primary-color);
 }
 
+/* footer */
+
 .footer {
     position: relative;
     /* height: 70px; */
@@ -183,6 +195,7 @@ form input:focus {
 }
 
 /*Confirmation */
+
 .confirmation {
     height: 458px;
     background-color: #f1faee;
